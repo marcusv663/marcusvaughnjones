@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head> 
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+<nav class="header">
+  <div class="name">
+    <span>Marcus Vaughn-Jones</span>
+  </div>
+  
+  <ul class="nav-menu">
+    <li><a href="#about" class="hover-underline-animation">about</a></li>
+    <li><a href="#education" class="hover-underline-animation">education</a></li>
+    <li><a href="#experience" class="hover-underline-animation">experience</a></li>
+    <li><a href="#skills" class="hover-underline-animation">skills</a></li>
+  </ul>
+</nav>
+<body>
+  <div id="about">        
+    <img src="propic.jpg" alt="profesional picture" class="linkpic">
+    <h3 class = "aboutdes">I am a highly motivated and ambitious software engineer with a strong 
+      passion for learning and staying current with the latest technologies 
+      and industry trends. I have a background in computer science and experience 
+      in various programming languages such as Python, Java, and C++. I am always 
+      eager to take on new challenges and am dedicated to continuously improving my 
+      skills and knowledge in the field. I am a quick learner and am able to adapt 
+      to new environments and technologies quickly. I am a team player and enjoy 
+      working with others to achieve common goals. I am excited to be a part of 
+      a dynamic and innovative company where I can continue to grow and develop
+       as a software engineer. </h3>
+  </div> 
+  <div class="education" id="education"> 
+    <img src="prep.png" alt="prep logo" class= "prep"> 
+    <img src="und2.png" alt="und logo" class="und">
+    <h3 class="edudes">i attended creighton preperatory school and through my abilities in the football field
+      and  the class room i was able to attend the university of north dakota. i chose computer
+      because i always liked solving puzzles and after i got the hang of python i was in love.
+      besides computer science skills i also learned how to leaverage my time being involved in football
+      which was a very demandign extracurricular and a demanding major tiem manangment was a skill i learned early.
+      My time at UND also gave me a team first mentality and hunger to work for my desired results.
+
+    </h3>
+  </div> 
+  <div class="experience" id="experience"> 
+      <div class="container" ontouchstart="this.classList.toggle('hover');">
+        <div class="card">  
+          <div class="card_front">
+            <img src="und2.png" alt="und logo" class="sym">
+
+          </div>
+      
+          <div class="card_back">
+            <img src="und2.png" alt="und logo" class="sym">
+            <div class="card-text">
+            <p> und senior project and filler The ampersand can be traced back 
+              to the 1st century A.D. and the Old Roman cursive, in which the 
+              letters E and T occasionally were written together to form a ligature.</p>
+            </div>
+          </div>    
+      
+        </div>
+      </div>
+      <div class="container2" ontouchstart="this.classList.toggle('hover');">
+        <div class="card2">  
+          <div class="card_front2">
+            <img src="und2.png" alt="und logo" class="sym">
+
+          </div>
+      
+          <div class="card_back2">
+            <img src="und2.png" alt="und logo" class="sym">
+            <div class="card-text">
+            <p> und senior project and filler The ampersand can be traced back 
+              to the 1st century A.D. and the Old Roman cursive, in which the 
+              letters E and T occasionally were written together to form a ligature.</p>
+            </div>
+          </div>    
+      
+        </div>
+      </div>
+  </div> 
+  <div class="skills" id="skills"> 
+    <p>•	python
+      •	C
+      •	CSS
+      •	php	•	C#
+      •	Unity 
+      •	HTML
+      </p>
+  </div> 
+</body>
+</html>
